@@ -1,0 +1,33 @@
+[{
+        "title": "sbs",
+        "imgurl": "http://static.naver.net/newsstand/2017/0313/article_img/9054/173200/001.jpg",
+        "newslist": [
+            "[가보니] 가상 경주도 즐기고, 내 손으로 자동차도 만들고",
+            "리캡차'가 사라진다",
+            "갤럭시S8' 출시? '갤노트7' 처리 계획부터 밝혀야",
+            "블로코-삼성SDS, 블록체인 사업 '맞손",
+            "[블록체인 톺아보기] 퍼블릭 블록체인의 한계와 프라이빗 블록체인"
+        ]
+    },
+    {
+        "title": "mbc",
+        "imgurl": "http://static.naver.net/newsstand/2017/0313/article_img/9054/173200/001.jpg",
+        "newslist": [
+            "Lorem ipsum dolor sit amet, consectetur adipisicin",
+            "ipsum dolor sit amet, consectetur adipisicin",
+            "dolor sit amet, consectetur adipisicin",
+            "amet, consectetur adipisicin"
+        ]
+    },
+    {
+        "title": "newsis",
+        "imgurl": "http://static.naver.net/newsstand/2017/0313/article_img/9054/173200/001.jpg",
+        "newslist": [
+            "주말여행, 즐거움 더할 봄축제는 어떨까",
+            "공무원 고드름 제거하다 사망시 순직, 말벌은 안돼...왜?",
+            "검찰, 박 전 대통령 영장 여부 신속히 결정할 전망",
+            "부산을 'PUSAN'으로 썼다고 퇴짜…중국의 유치한 사드 보복",
+            "'장미대선' 덕분에…오는 5월 최장 11일 '황금연휴' 가능"
+        ]
+    }
+]
