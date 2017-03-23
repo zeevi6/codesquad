@@ -1,0 +1,76 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>news</title>
+    <link rel="stylesheet" href="./css/main.css">
+</head>
+
+<body>
+
+    <% var pressValue = ""; %>
+
+    <div class="wrap">
+        <header>
+            <ul>
+                <li onclick="location.href='/newslist';" class="currentView">전체언론사</li>
+                &nbsp;|&nbsp;
+                <li onclick="location.href='/sublist';" class="">my뉴스</li>
+            </ul>
+            <div class="btn">
+                <div class="left">
+                    <a href="">
+                        <</a>
+                </div>
+                <span class="currentPage">1</span> / <span class="pageCount" style="padding-right:8px;"><%= presslist.item.length %></span>
+                <div class="right">
+                    <a href="">></a>
+                </div>
+            </div>
+        </header>
+        <section class="mainArea">
+            <nav>
+                <ul>
+                    <% for(let i=0; i<presslist.item.length; i++) { %>
+                        <li class="<% if(i===0) { %>bold<% } else { %>plain<% } %>"><%= presslist.item[i].press %></li>
+                    <% } %>
+                </ul>
+            </nav>
+            <% for(let i=0; i<content.item.length; i++) {
+                let data = content.item[i]; %>
+                <section class="content <% if(i !== 0) { %>hide<% } else { %>show<% }%>">
+                        <h4 class="title">
+                            <span class="newsName"><%= data.press %></span>
+                            <% if(i===0) { pressValue = data.press; } %>
+                            <button>
+                                <a href="#">X</a>
+                            </button>
+                        </h4>
+                        <div class="newsList">
+                            <img src="<%= data.imgurl %>" alt="">
+                            <ul>
+                                <% for(let j=0; j<data.articles.length; j++) { %>
+                                    <li><%= data.articles[j] %></li>
+                                <% } %>
+                            </ul>
+                        </div>
+                </section>
+            <% } %>
+        </section>
+    </div>
+
+    <form method="post" action="/news/unsub">
+        <input type="hidden" name="press" value="<%= pressValue%>">
+    </form>
+
+    <script src="./js/news.js"></script>
+
+    <script>
+    </script>
+
+</body>
+
+</html>

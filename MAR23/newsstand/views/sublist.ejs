@@ -1,0 +1,41 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>news</title>
+    <link rel="stylesheet" href="./css/main.css">
+</head>
+
+<body>
+
+    <div class="wrap">
+        <header>
+            <ul>
+                <li onclick="location.href='/newslist';" class="">전체언론사</li>
+                &nbsp;|&nbsp;
+                <li onclick="location.href='/sublist';" class="currentView">my뉴스</li>
+            </ul>
+        </header>
+        <section class="subArea" style="">
+            <section class="content">
+                <div class="sublist">
+                    <ul>
+                        <% for(let i=0; i<sublist.item.length; i++) { %>
+                            <li class="subscribed_<%= sublist.item[i].issubbed %> plain">
+                                <img src="<%= sublist.item[i].presslogo %>" alt="<%= sublist.item[i].press %>"/>
+                            </li>
+                        <% } %>
+                    </ul>
+                </div>
+            </section>
+        </section>
+    </div>
+
+    <script src="./js/subs.js"></script>
+
+</body>
+
+</html>

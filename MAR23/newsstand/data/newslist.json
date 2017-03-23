@@ -1,0 +1,47 @@
+[{
+        "press": "ytn",
+        "presslogo": "http://static.naver.net/newsstand/up/2015/1112/nsd184430988.jpg",
+        "imgurl": "http://static.naver.net/newsstand/2017/0322/pressian/215002/001.jpg",
+        "articles": [
+            "세월호, 오전 11시에 진식이 부상한다",
+            "'아픈 곳' 찔린 MBC, 문재인은 '전면전' 선포",
+            "이선애 헌법재판관 후보, '도가니법' 무력화 소송 변론",
+            "검찰, 고도의 전략인가, 치졸한 봐주기인가"
+        ]
+    },
+    {
+        "press": "newsis",
+        "presslogo": "http://static.naver.net/newsstand/up/2015/0303/nsd152544150.gif",
+        "imgurl": "http://static.naver.net/newsstand/2017/0322/pressian/215002/002.jpg",
+        "articles": [
+            "개성공단·사드…'안철수 우클릭' 파고든 손학규",
+            "강남구, '朴 진돗개 선물' 부부 관련 공연에 특혜 의혹",
+            "'4.2 세계 자폐인의 날', 함께해요!",
+            "블로코-삼성SDS, 블록체인 사업 '맞손",
+            "[블록체인 톺아보기] 퍼블릭 블록체인의 한계와 프라이빗 블록체인"
+        ]
+    },
+    {
+        "press": "sbs",
+        "presslogo": "http://static.naver.net/newsstand/up/2014/0715/055.gif",
+        "imgurl": "http://static.naver.net/newsstand/2017/0322/pressian/215002/003.jpg",
+        "articles": [
+            "북한 미사일 발사…실패 가능성",
+            "'사랑한다 딸' 마흔살 박 씨, 왜 자살 기도 했나?",
+            "朴 검찰 출두한 날, 싸늘한 대구 달성 민심 배신감…",
+            "'문재인은 공산주의자' 신연희 강남구청장 고발"
+        ]
+    },
+    {
+        "press": "pressian",
+        "presslogo": "http://static.naver.net/newsstand/up/2014/0715/002.gif",
+        "imgurl": "http://static.naver.net/newsstand/2017/0322/pressian/215002/004.jpg",
+        "articles": [
+            "민주당 '박근혜 최종 사법처리 원칙대로 해야'",
+            "해수부, 오전 10시 세월호 시험인양",
+            "이런 뜻 아닌데 고쳐주세요…朴, 조서 '꼼꼼 수정'…",
+            "주말여행, 즐거움 더할 봄축제는 어떨까",
+            "공무원 고드름 제거하다 사망시 순직, 말벌은 안돼...왜?"
+        ]
+    }
+]
