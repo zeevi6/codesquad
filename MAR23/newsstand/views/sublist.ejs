@@ -25,7 +25,10 @@
                     <ul>
                         <% for(let i=0; i<sublist.item.length; i++) { %>
                             <li class="subscribed_<%= sublist.item[i].issubbed %> plain">
+                                <input type="hidden" name="item" value="<%= sublist.item[i].press %>"/>
                                 <img src="<%= sublist.item[i].presslogo %>" alt="<%= sublist.item[i].press %>"/>
+                                <a href="#" title="구독"><span class="addSub">+</span></a>
+                                <a href="#" title="구독취소"><span class="removeSub">-</span></a>
                             </li>
                         <% } %>
                     </ul>
